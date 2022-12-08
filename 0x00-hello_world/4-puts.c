@@ -1,6 +1,8 @@
 #include<stdio.h>
 /**
- *print_something
+ * main -Prints something
+ * Return: 0 to end the program
+ *
  */
 int main(void)
 {
