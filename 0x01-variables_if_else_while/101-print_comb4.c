@@ -8,21 +8,21 @@
 int main(void)
 {
 int ones = '0';
-int tens = '0';
+int ten = '0';
 int hundreds = '0';
 
 for (hundreds = '0'; hundreds <= '9'; hundreds++)
 {
-for (tens = '0'; tens <= '9'; tens++)
+for (ten = '0'; ten <= '9'; ten++)
 {
 for (ones = '0'; ones <= '9'; ones++)
 {
-if (!((ones == tens) || (tens == hundreds) || (tens > ones) || (hundreds > tens)))
+if (!((ones == ten) || (ten == hundreds) || (ten > ones) || (hundreds > ten)))
 {
 putchar(hundreds);
-putchar(tens);
+putchar(ten);
 putchar(ones);
-if (!(ones == '9' && hundreds == '7' && tens == '8'))
+if (!(ones == '9' && hundreds == '7' && ten == '8'))
 {
 putchar(',');
 putchar(' ');
