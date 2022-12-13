@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_alphabet_x10 -Prints something
  * Return: 0 if its seccesful
  */
