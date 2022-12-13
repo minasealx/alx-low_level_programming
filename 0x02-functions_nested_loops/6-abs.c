@@ -3,11 +3,11 @@
 
 /**
  * _abs - prints the absolute
- * @int: Is the int value to be compared with the ASCII value
+ * @n: Is the int value to be compared with the ASCII value
  * Return: 0 if successful. _islower - Entry point
  */
 
-int _abs(int n )
+int _abs(int n)
 {
 if (n < 0)
 {
@@ -18,5 +18,4 @@ else if (n >= 0)
 {
 printf("%d", n);
 }
-return (0);
 }
