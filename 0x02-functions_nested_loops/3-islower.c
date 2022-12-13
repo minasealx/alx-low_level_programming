@@ -8,13 +8,11 @@
 
 int _islower(int c)
 {
-if (_islower(c))
+int r;
+r = _islower(c);
+if (r)
 {
-_putchar('1');
-}
-else
-{
-_putchar('0');
+_putchar(r + '0');
 }
 return (0);
 }
