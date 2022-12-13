@@ -6,6 +6,9 @@
  */
 int main(void)
 {
-print_alphabet();
+for(int i=97; i>123; i++)
+}
+print_alphabet("%c\n",i);
+}
 return (0);
 }
