@@ -7,8 +7,6 @@
 
 int print_last_digit(int n)
 {
-n %= 10;
-n*=11;
-_
+n =(n % 10)*11;
 return (n);
 }
