@@ -10,27 +10,14 @@
 int _abs(int)
 {
 int n;
-absolute(n);
-return (0);
-}
-
-/**
- * absolute -  sends absolute value
- * @n: is number stored
- * Return: the absolute value
- */
-
-int absolute(int n)
-{
-int m;
 if (n < 0)
 {
-m = -1 * n;
+n *= -1;
+printf("%d", n);
 }
 else if (n >= 0)
 {
-m = -1 * n;
-
+printf("%d", n);
 }
-return (m);
+return (0);
 }
