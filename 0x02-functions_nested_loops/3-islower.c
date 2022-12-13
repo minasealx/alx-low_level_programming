@@ -9,7 +9,7 @@
 int _islower(int c)
 {
 char c;
-if islower(c)
+if _islower(c)
 {
 _putchar('1');
 }
