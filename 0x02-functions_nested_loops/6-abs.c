@@ -7,7 +7,7 @@
  * Return: 0 if successful. _islower - Entry point
  */
 
-int _abs(int)
+int _abs(int n)
 {
 int n;
 if (n < 0)
