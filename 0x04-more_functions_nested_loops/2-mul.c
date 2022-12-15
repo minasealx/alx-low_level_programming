@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * mul - starts here
  * @a: first number
@@ -9,6 +9,8 @@
 
 int mul(int a, int b)
 {
-	mul = a * b;
-	return (mul);
+	int a;
+	int b;
+	mult = a * b;
+	return (mult);
 }
